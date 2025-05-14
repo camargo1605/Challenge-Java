@@ -191,7 +191,7 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 ## 🧪 Exemplo de JSON para POST
 
 ```json
-#Cidade
+##Cidade
 {
 		"nomeCidade": "Manaus",
 		"estado": {
@@ -204,14 +204,14 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 		}
 	}
 
-#Cliente
+##Cliente
 {
 		"nomeCliente": "Lucas Silva",
 		"cpfCliente": "123.456.789-00",
 		"telefoneCliente": "(11) 91234-5678"
 	}
 
-#Estado
+##Estado
 {
 		"nomeEstado": "Amazonas",
 		"pais": {
@@ -220,7 +220,7 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 		}
 	}
 
-#Filial
+##Filial
 {
 		"nomeFilial": "Filial Campo Grande - Centro",
 		"cidade": {
@@ -236,5 +236,101 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 			}
 		}
 
-#LocalizacaoMoto
+##LocalizacaoMoto
+	{
+		"moto": {
+			"codMoto": 1,
+			"modelo": "Mottuuu Sport",
+			"anoFabricacao": 2061,
+			"categoria": "Esportiva",
+			"cliente": {
+				"codCliente": 1,
+				"nomeCliente": "Lucas Silva",
+				"cpfCliente": "123.456.789-00",
+				"telefoneCliente": "(11) 91234-5678"
+			}
+		},
+		"filial": {
+			"codFilial": 1,
+			"nomeFilial": "Filial São Paulo - Butantã",
+			"cidade": {
+				"codCidade": 14,
+				"nomeCidade": "São Paulo",
+				"estado": {
+					"codEstado": 14,
+					"nomeEstado": "São Paulo",
+					"pais": {
+						"codPais": 1,
+						"nomePais": "Brasil"
+					}
+				}
+			},
+			"tamanhoPatio": 500
+		},
+		"boxPosicao": "A1",
+		"status": "Em manutenção",
+		"dataEntrada": "2025-05-10T15:29:27.525093",
+		"dataSaida": null
+	}
+
+##ManutencaoMoto
+{
+		"moto": {
+			"codMoto": 1,
+			"modelo": "Mottu Sport",
+			"anoFabricacao": 2021,
+			"categoria": "Esportiva",
+			"cliente": {
+				"codCliente": 1,
+				"nomeCliente": "Lucas Silva",
+				"cpfCliente": "123.456.789-00",
+				"telefoneCliente": "(11) 91234-5678"
+			}
+		},
+		"tipoManutencao": "Troca de óleo",
+		"dataManutencao": "2025-05-10T15:29:27.700644"
+	}
+
+##Moto
+
+##MovimentoMoto
+{
+		"moto": {
+			"codMoto": 1,
+			"modelo": "Mottu Sport",
+			"anoFabricacao": 2021,
+			"categoria": "Esportiva",
+			"cliente": {
+				"codCliente": 1,
+				"nomeCliente": "Lucas Silva",
+				"cpfCliente": "123.456.789-00",
+				"telefoneCliente": "(11) 91234-5678"
+			}
+		},
+		"filial": {
+			"codFilial": 1,
+			"nomeFilial": "Filial São Paulo - Butantã",
+			"cidade": {
+				"codCidade": 14,
+				"nomeCidade": "São Paulo",
+				"estado": {
+					"codEstado": 14,
+					"nomeEstado": "São Paulo",
+					"pais": {
+						"codPais": 1,
+						"nomePais": "Brasil"
+					}
+				}
+			},
+			"tamanhoPatio": 500
+		},
+		"tipoMovimento": "Entrada",
+		"dataMovimento": "2025-05-10T15:29:27.598908",
+		"manutencaoNecessaria": null
+	}
+##Pais
+{
+		"nomePais": "Brasil"
+	}
+##SensorMoto
 
