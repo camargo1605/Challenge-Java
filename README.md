@@ -191,14 +191,18 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 ## 🧪 Exemplo de JSON para POST
 
 ```json
+#Cidade
 {
+		"codCidade": 1,
 		"nomeCidade": "Manaus",
 		"estado": {
-			"codEstado": 1,
-			"nomeEstado": "Amazonas",
-			"pais": {
-				"codPais": 1,
-				"nomePais": "Brasil"
-			}
-		}
-	}
+                "codEstado": 1,
+                "nomeEstado": "Amazonas",
+                "pais": {
+                "codPais": 1,
+                "nomePais": "Brasil"
+}
+}
+}
+
+
