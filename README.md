@@ -24,17 +24,18 @@ Este projeto busca atender os requisitos técnicos e critérios de avaliação d
 
 ---
 
-## 🧸 Atributos da entidade `Brinquedo`     
+## 🧸 Atributos da entidades do Projeto     
 
-A entidade `Brinquedo` possui os seguintes atributos:
+A entidade `Pais` possui os seguintes atributos:
 
-- `id` (Long)
-- `nome` (String)
-- `tipo` (String)
-- `classificacao` (String)
-- `tamanho` (String)
-- `preco` (Double)
+- `cod_pais` (Integer)
+- `nome_pais` (String)
 
+A entidade `Pais` possui os seguintes atributos:
+
+- `cod_pais` (Integer)
+- `nome_pais` (String)
+  
 ---
 
 ## 🔗 Endpoints da API
