@@ -192,9 +192,13 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 
 ```json
 {
-  "nome": "Boneca Mágica",
-  "tipo": "Educativo",
-  "classificacao": "4+",
-  "tamanho": "Pequeno",
-  "preco": 89.90
-}
+		"nomeCidade": "Manaus",
+		"estado": {
+			"codEstado": 1,
+			"nomeEstado": "Amazonas",
+			"pais": {
+				"codPais": 1,
+				"nomePais": "Brasil"
+			}
+		}
+	}
