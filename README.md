@@ -24,7 +24,7 @@ Este projeto busca atender os requisitos técnicos e critérios de avaliação d
 
 ---
 
-## 🧸 Atributos da entidade `Brinquedo`
+## 🧸 Atributos da entidade `Brinquedo`     
 
 A entidade `Brinquedo` possui os seguintes atributos:
 
