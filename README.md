@@ -10,24 +10,16 @@ Este projeto consiste na criação de uma API REST utilizando Java com Spring Bo
 
 A API é responsável por gerenciar entidades relacionadas ao controle de motos em filiais, incluindo funcionalidades completas de CRUD para pelo menos duas entidades, além de implementar:
 
-    Uso do Spring Web para criação da API RESTful;
-
-    Integração com banco de dados Oracle ou H2 via Spring Data JPA;
-
-    Relacionamentos entre entidades conforme modelo relacional fornecido;
-
-    Validação de campos utilizando Bean Validation;
-
-    Implementação de paginação, ordenação e busca por parâmetros para resultados;
-
-    Utilização de cache para otimizar requisições;
-
-    Aplicação de boas práticas de design REST;
-
-    Tratamento centralizado de erros para maior robustez da API;
-
-    Uso de DTOs para transferência segura e eficiente dos dados.
-
+   - Uso do Spring Web para criação da API RESTful
+   -  Integração com banco de dados Oracle ou H2 via Spring Data JPA
+   -  Relacionamentos entre entidades conforme modelo relacional fornecido
+   -  Validação de campos utilizando Bean Validation
+   -  Implementação de paginação, ordenação e busca por parâmetros para resultados
+   -  Utilização de cache para otimizar requisições
+   -  Aplicação de boas práticas de design REST
+   -  Tratamento centralizado de erros para maior robustez da API
+   -  Uso de DTOs para transferência segura e eficiente dos dados
+   -  
 Este projeto busca atender os requisitos técnicos e critérios de avaliação definidos para o sprint, entregando uma solução organizada, inovadora e aderente ao desafio proposto.
 
 ---
