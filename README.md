@@ -55,10 +55,10 @@ A entidade `Brinquedo` possui os seguintes atributos:
 
 | Método | Endpoint        | Descrição                   |
 | ------ | --------------- | --------------------------- |
-| POST   | `/clientes`      | Criar um novo estado        |
-| GET    | `/clientes`      | Listar todos os estados     |
-| PUT    | `/clientes/{id}` | Atualizar um estado pelo ID |
-| DELETE | `/clientes/{id}` | Deletar um estado pelo ID   |
+| POST   | `/clientes`      | Criar um novo cliente        |
+| GET    | `/clientes`      | Listar todos os Clientes     |
+| PUT    | `/clientes/{id}` | Atualizar um Cliente pelo ID |
+| DELETE | `/clientes/{id}` | Deletar um Cliente pelo ID   |
 
 | Método | Endpoint        | Descrição                    |
 | ------ | --------------- | ---------------------------- |
