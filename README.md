@@ -31,10 +31,75 @@ A entidade `Pais` possui os seguintes atributos:
 - `cod_pais` (Integer)
 - `nome_pais` (String)
 
-A entidade `Pais` possui os seguintes atributos:
+A entidade `Estado` possui os seguintes atributos:
 
+- `cod_estado` (Integer)
+- `nome_estado` (String)
 - `cod_pais` (Integer)
-- `nome_pais` (String)
+
+A entidade `Cidade` possui os seguintes atributos:
+
+- `cod_cidade` (Integer)
+- `nome_cidade` (String)
+- `cod_estado` (Integer)
+
+A entidade `Filial` possui os seguintes atributos:
+
+- `cod_filial` (Integer)
+- `nome_filial` (String)
+- `cod_cidade` (Integer)
+- `tamanho_patio` (Integer)
+
+A entidade `Moto` possui os seguintes atributos:
+
+- `cod_moto` (Integer)
+- `modelo` (String)
+- `ano_fabricacao` (Integer)
+- `categoria` (String)
+- `cod_cliente` (Integer)
+
+A entidade `Usuario` possui os seguintes atributos:
+
+- `cod_usuario` (Integer)
+- `nome_usuario` (String)
+- `email` (String)
+- `tipo_acesso` (String)
+- `cod_filial` (Integer)
+- `funcao_usuario` (String)
+
+A entidade `Movimentcao-Moto` possui os seguintes atributos:
+
+- `cod_movimento` (Integer)
+- `cod_moto` (Integer)
+- `cod_filial` (Integer)
+- `tipo_movimento` (String)
+- `data_movimento` (LocaDataTime)
+- `manutencao_necessaria` (String)
+
+A entidade `Manutencao-Moto` possui os seguintes atributos:
+
+- `cod_manutencao` (Integer)
+- `cod_moto` (Integer)
+- `tipo_manutencao` (String)
+- `data_manutencao` (LocaDataTime)
+
+A entidade `Localizacao-Moto` possui os seguintes atributos:
+
+- `cod_localizacao` (Integer)
+- `cod_moto` (Integer)
+- `cod_filial` (Integer)
+- `box_posicao` (String)
+- `status` (String)
+- `data_entrada` (LocalDateTime)
+- `data_saida` (LocalDateTime)
+
+A entidade `Sensor-Moto` possui os seguintes atributos:
+
+- `cod_sensor` (Integer)
+- `cod_filial` (Integer)
+- `tipo_sensor` (String)
+- `local_instalacao` (String)
+- `cod_moto` (Integer)
   
 ---
 
