@@ -117,7 +117,8 @@ A entidade `Brinquedo` possui os seguintes atributos:
 | DELETE | `/sensor-moto/{id}` | Deletar um sensor pelo ID   |
 
 ## Spring da aplicação
-![image](https://github.com/user-attachments/assets/dfafe874-3f4d-4045-81af-92060b28eb38)
+![image](https://github.com/user-attachments/assets/e34b6b8a-be94-4e93-8123-597c3a3eb5bc)
+
 
 ---
 
