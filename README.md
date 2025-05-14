@@ -19,7 +19,7 @@ A API é responsável por gerenciar entidades relacionadas ao controle de motos 
    -  Aplicação de boas práticas de design REST
    -  Tratamento centralizado de erros para maior robustez da API
    -  Uso de DTOs para transferência segura e eficiente dos dados
-   -  
+     
 Este projeto busca atender os requisitos técnicos e critérios de avaliação definidos para o sprint, entregando uma solução organizada, inovadora e aderente ao desafio proposto.
 
 ---
@@ -39,12 +39,82 @@ A entidade `Brinquedo` possui os seguintes atributos:
 
 ## 🔗 Endpoints da API
 
-| Método | Rota               | Descrição                  |
-|--------|--------------------|----------------------------|
-| POST   | /brinquedos        | Cadastrar um brinquedo     |
-| GET    | /brinquedos        | Listar todos os brinquedos |
-| PUT    | /brinquedos/{id}   | Atualizar um brinquedo     |
-| DELETE | /brinquedos/{id}   | Deletar um brinquedo       |
+| Método | Endpoint       | Descrição                 |
+| ------ | -------------- | ------------------------- |
+| POST   | `/paises`      | Criar um novo país        |
+| GET    | `/paises`      | Listar todos os países    |
+| PUT    | `/paises/{id}` | Atualizar um país pelo ID |
+| DELETE | `/paises/{id}` | Deletar um país pelo ID   |
+
+| Método | Endpoint        | Descrição                   |
+| ------ | --------------- | --------------------------- |
+| POST   | `/estados`      | Criar um novo estado        |
+| GET    | `/estados`      | Listar todos os estados     |
+| PUT    | `/estados/{id}` | Atualizar um estado pelo ID |
+| DELETE | `/estados/{id}` | Deletar um estado pelo ID   |
+
+| Método | Endpoint        | Descrição                   |
+| ------ | --------------- | --------------------------- |
+| POST   | `/clientes`      | Criar um novo estado        |
+| GET    | `/clientes`      | Listar todos os estados     |
+| PUT    | `/clientes/{id}` | Atualizar um estado pelo ID |
+| DELETE | `/clientes/{id}` | Deletar um estado pelo ID   |
+
+| Método | Endpoint        | Descrição                    |
+| ------ | --------------- | ---------------------------- |
+| POST   | `/cidades`      | Criar uma nova cidade        |
+| GET    | `/cidades`      | Listar todas as cidades      |
+| PUT    | `/cidades/{id}` | Atualizar uma cidade pelo ID |
+| DELETE | `/cidades/{id}` | Deletar uma cidade pelo ID   |
+
+| Método | Endpoint        | Descrição                    |
+| ------ | --------------- | ---------------------------- |
+| POST   | `/filiais`      | Criar uma nova filial        |
+| GET    | `/filiais`      | Listar todas as filiais      |
+| PUT    | `/filiais/{id}` | Atualizar uma filial pelo ID |
+| DELETE | `/filiais/{id}` | Deletar uma filial pelo ID   |
+
+| Método | Endpoint      | Descrição                  |
+| ------ | ------------- | -------------------------- |
+| POST   | `/motos`      | Criar uma nova moto        |
+| GET    | `/motos`      | Listar todas as motos      |
+| PUT    | `/motos/{id}` | Atualizar uma moto pelo ID |
+| DELETE | `/motos/{id}` | Deletar uma moto pelo ID   |
+
+| Método | Endpoint         | Descrição                    |
+| ------ | ---------------- | ---------------------------- |
+| POST   | `/usuarios`      | Criar um novo usuário        |
+| GET    | `/usuarios`      | Listar todos os usuários     |
+| PUT    | `/usuarios/{id}` | Atualizar um usuário pelo ID |
+| DELETE | `/usuarios/{id}` | Deletar um usuário pelo ID   |
+
+| Método | Endpoint           | Descrição                      |
+| ------ | ------------------ | ------------------------------ |
+| POST   | `/movimentacao-moto`      | Criar um novo movimento        |
+| GET    | `/movimentacao-moto`      | Listar todos os movimentos     |
+| PUT    | `/movimentacao-moto/{id}` | Atualizar um movimento pelo ID |
+| DELETE | `/movimentacao-moto/{id}` | Deletar um movimento pelo ID   |
+
+| Método | Endpoint            | Descrição                        |
+| ------ | ------------------- | -------------------------------- |
+| POST   | `/manutencao-moto`      | Criar uma nova manutenção        |
+| GET    | `/manutencao-moto`      | Listar todas as manutenções      |
+| PUT    | `/manutencao-moto/{id}` | Atualizar uma manutenção pelo ID |
+| DELETE | `/manutencao-moto/{id}` | Deletar uma manutenção pelo ID   |
+
+| Método | Endpoint             | Descrição                         |
+| ------ | -------------------- | --------------------------------- |
+| POST   | `/localizacao-moto`      | Criar uma nova localização        |
+| GET    | `/localizacao-moto`      | Listar todas as localizações      |
+| PUT    | `/localizacao-moto/{id}` | Atualizar uma localização pelo ID |
+| DELETE | `/localizacao-moto/{id}` | Deletar uma localização pelo ID   |
+
+| Método | Endpoint         | Descrição                   |
+| ------ | ---------------- | --------------------------- |
+| POST   | `/sensor-moto`      | Criar um novo sensor        |
+| GET    | `/sensor-moto`      | Listar todos os sensores    |
+| PUT    | `/sensor-moto/{id}` | Atualizar um sensor pelo ID |
+| DELETE | `/sensor-moto/{id}` | Deletar um sensor pelo ID   |
 
 ## Spring da aplicação
 ![image](https://github.com/user-attachments/assets/dfafe874-3f4d-4045-81af-92060b28eb38)
