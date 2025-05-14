@@ -193,16 +193,48 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 ```json
 #Cidade
 {
-		"codCidade": 1,
 		"nomeCidade": "Manaus",
 		"estado": {
-                "codEstado": 1,
-                "nomeEstado": "Amazonas",
-                "pais": {
-                "codPais": 1,
-                "nomePais": "Brasil"
-}
-}
-}
+			"codEstado": 1,
+			"nomeEstado": "Amazonas",
+			"pais": {
+				"codPais": 1,
+				"nomePais": "Brasil"
+			}
+		}
+	}
 
+#Cliente
+{
+		"nomeCliente": "Lucas Silva",
+		"cpfCliente": "123.456.789-00",
+		"telefoneCliente": "(11) 91234-5678"
+	}
+
+#Estado
+{
+		"nomeEstado": "Amazonas",
+		"pais": {
+			"codPais": 1,
+			"nomePais": "Brasil"
+		}
+	}
+
+#Filial
+{
+		"nomeFilial": "Filial Campo Grande - Centro",
+		"cidade": {
+			"codCidade": 18,
+			"nomeCidade": "Campo Grande",
+			"estado": {
+				"codEstado": 18,
+				"nomeEstado": "Mato Grosso do Sul",
+				"pais": {
+					"codPais": 1,
+					"nomePais": "Brasil"
+				}
+			}
+		}
+
+#LocalizacaoMoto
 
