@@ -191,7 +191,7 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 ## 🧪 Exemplo de JSON para POST
 
 ```json
-**Cidade**
+*Cidade*
 {
 		"nomeCidade": "Manaus",
 		"estado": {
