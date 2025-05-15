@@ -191,7 +191,7 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 ## 🧪 Exemplo de JSON para POST
 
 ```json
-*Cidade*
+##Cidade
 {
 		"nomeCidade": "Manaus",
 		"estado": {
@@ -291,7 +291,18 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 		"dataManutencao": "2025-05-10T15:29:27.700644"
 	}
 
-##Moto
+##Moto (Cada Cliente só pode ter uma moto, então para criar alterar o código do cliente)
+{
+		"modelo": "Mottu Sport",
+		"anoFabricacao": 2021,
+		"categoria": "Esportiva",
+		"cliente": {
+			"codCliente": 41,
+			"nomeCliente": "Lucas Silva",
+			"cpfCliente": "123.456.789-00",
+			"telefoneCliente": "(11) 91234-5678"
+		}
+	}
 
 ##MovimentoMoto
 {
@@ -333,4 +344,62 @@ A entidade `Sensor-Moto` possui os seguintes atributos:
 		"nomePais": "Brasil"
 	}
 ##SensorMoto
+{
+		"filial": {
+			"codFilial": 1,
+			"nomeFilial": "Filial São Paulo - Butantã",
+			"cidade": {
+				"codCidade": 14,
+				"nomeCidade": "São Paulo",
+				"estado": {
+					"codEstado": 14,
+					"nomeEstado": "São Paulo",
+					"pais": {
+						"codPais": 1,
+						"nomePais": "Brasil"
+					}
+				}
+			},
+			"tamanhoPatio": 500
+		},
+		"tipoSensor": "Câmera",
+		"localInstalacao": "Entrada Lateral",
+		"moto": {
+			"codMoto": 1,
+			"modelo": "Mottu Sport",
+			"anoFabricacao": 2021,
+			"categoria": "Esportiva",
+			"cliente": {
+				"codCliente": 1,
+				"nomeCliente": "Lucas Silva",
+				"cpfCliente": "123.456.789-00",
+				"telefoneCliente": "(11) 91234-5678"
+			}
+		}
+	}
+
+##Usuario
+{
+		"nomeUsuario": "André André",
+		"email": "andre.silva@mottu.com",
+		"tipoAcesso": "Admin",
+		"filial": {
+			"codFilial": 1,
+			"nomeFilial": "Filial São Paulo - Butantã",
+			"cidade": {
+				"codCidade": 14,
+				"nomeCidade": "São Paulo",
+				"estado": {
+					"codEstado": 14,
+					"nomeEstado": "São Paulo",
+					"pais": {
+						"codPais": 1,
+						"nomePais": "Brasil"
+					}
+				}
+			},
+			"tamanhoPatio": 500
+		},
+		"funcaoUsuario": "Gestor"
+	}
 
