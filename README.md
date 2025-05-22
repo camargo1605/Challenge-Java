@@ -24,7 +24,7 @@ Este projeto busca atender os requisitos técnicos e critérios de avaliação d
 
 ---
 
-## 🧸 Atributos da entidades do Projeto     
+## 🏍️ Atributos da entidades do Projeto     
 
 A entidade `Pais` possui os seguintes atributos:
 
